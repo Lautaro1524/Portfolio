@@ -6,15 +6,15 @@ import {
   SiJavascript,
   SiPython,
   SiMysql,
-  SiCsharp,
+  SiDotnet,
   SiHtml5,
-  SiCss3,
+  SiCss,
   SiNodedotjs,
   SiPhp,
   SiGit,
   SiReact,
   SiGithub,
-  SiVisualstudiocode,
+  SiNextdotjs,
 } from "react-icons/si";
 import type { IconType } from "react-icons";
 
@@ -28,15 +28,15 @@ const techStack: Tech[] = [
   { name: "JavaScript", icon: SiJavascript, color: "#f7df1e" },
   { name: "Python", icon: SiPython, color: "#3776ab" },
   { name: "SQL / MySQL", icon: SiMysql, color: "#4479a1" },
-  { name: "C#", icon: SiCsharp, color: "#9b4993" },
+  { name: "C# / .NET", icon: SiDotnet, color: "#512bd4" },
   { name: "HTML5", icon: SiHtml5, color: "#e34f26" },
-  { name: "CSS3", icon: SiCss3, color: "#1572b6" },
+  { name: "CSS3", icon: SiCss, color: "#1572b6" },
   { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
   { name: "PHP", icon: SiPhp, color: "#777bb4" },
   { name: "Git", icon: SiGit, color: "#f05032" },
   { name: "React", icon: SiReact, color: "#61dafb" },
   { name: "GitHub", icon: SiGithub, color: "#f0f6fc" },
-  { name: "VS Code", icon: SiVisualstudiocode, color: "#007acc" },
+  { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
 ];
 
 const firstRow = techStack.slice(0, 6);
