@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Tienda Virtual Tech",
+    "description": "Tienda en línea moderna y responsiva para la venta de productos tecnológicos de alta gama con sistema de categorías, filtros y gestión de stock en tiempo real.",
+    "problem": "Diseñé una solución para optimizar la experiencia de compra de tecnología, permitiendo a los usuarios navegar por 15+ productos categorizados, comparar especificaciones técnicas y visualizar ofertas activas, mejorando la conversión mediante una interfaz clara y orientada a la decisión de compra.",
+    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "github": "https://github.com/Lautaro1524/Tienda-Virtual",
+    "demo": "https://lautaro1524.github.io/Tienda-Virtual/"
+  },
+  {
+    "id": 2,
+    "title": "Repositorio de Equipo Dev",
+    "description": "Sitio web corporativo que centraliza la presentación de un equipo de desarrolladores, su metodología de trabajo y portafolio de proyectos variados.",
+    "problem": "Centralicé la identidad y trabajos de un equipo de desarrollo en una sola plataforma, facilitando a clientes potenciales explorar perfiles individuales, proyectos reales (dashboards, APIs, tiendas) y el proceso de trabajo, generando confianza a través de una presentación estructurada.",
+    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "github": "https://github.com/Lautaro1524/Repositorio",
+    "demo": "https://lautaro1524.github.io/Repositorio/"
+  }
+]
