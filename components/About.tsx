@@ -66,7 +66,7 @@ export default function About() {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <div className="space-y-4 text-[#94a3b8] text-base leading-relaxed">
+            <div className="space-y-4 text-[#cbd5e1] text-base leading-relaxed">
               <p>
                 Soy{" "}
                 <span className="text-white font-medium">
@@ -91,7 +91,7 @@ export default function About() {
 
             <motion.a
               href="#contacto"
-              className="inline-flex items-center gap-2 mt-8 px-6 py-3 rounded-lg bg-[#0f0f17] border border-[#1e1e2e] text-[#94a3b8] hover:text-white hover:border-[#6366f1]/60 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#6366f1] focus:ring-offset-2 focus:ring-offset-[#0a0a0f]"
+              className="inline-flex items-center gap-2 mt-8 px-6 py-3 rounded-lg bg-[#0f0f17] border border-[#1e1e2e] text-[#cbd5e1] hover:text-white hover:border-[#6366f1]/60 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#6366f1] focus:ring-offset-2 focus:ring-offset-[#0a0a0f]"
               whileHover={{ x: 4 }}
             >
               Hablemos →
@@ -121,7 +121,7 @@ export default function About() {
                   <h4 className="text-white text-sm font-semibold mb-1">
                     {item.title}
                   </h4>
-                  <p className="text-[#64748b] text-xs leading-relaxed">
+                  <p className="text-[#94a3b8] text-xs leading-relaxed">
                     {item.desc}
                   </p>
                 </motion.div>
