@@ -71,7 +71,7 @@ export default function About() {
             <div className="flex items-center gap-5 mb-8">
               <div className="relative w-20 h-20 rounded-2xl overflow-hidden border-2 border-[#6366f1]/40 flex-shrink-0">
                 <Image
-                  src="/portfolio-public-foto-perfil.jpg"
+                  src="/portfolio-public-fotoperfil.jpg"
                   alt="Foto de perfil de Lautaro Nicolas Arias"
                   fill
                   className="object-cover"
