@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { FiBook, FiMapPin, FiCode, FiTarget } from "react-icons/fi";
 import type { IconType } from "react-icons";
@@ -60,12 +61,30 @@ export default function About() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left: Text */}
+          {/* Left: Photo + Text */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
+            {/* Foto de perfil */}
+            <div className="flex items-center gap-5 mb-8">
+              <div className="relative w-20 h-20 rounded-2xl overflow-hidden border-2 border-[#6366f1]/40 flex-shrink-0">
+                <Image
+                  src="/portfolio-public-foto-perfil.jpg"
+                  alt="Foto de perfil de Lautaro Nicolas Arias"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="80px"
+                />
+              </div>
+              <div>
+                <h3 className="text-white font-semibold text-lg leading-tight">Lautaro Nicolas Arias</h3>
+                <p className="text-[#6366f1] text-sm mt-0.5">Analista de Sistemas</p>
+                <p className="text-[#64748b] text-xs mt-0.5">Guernica, Buenos Aires 🇦🇷</p>
+              </div>
+            </div>
             <div className="space-y-4 text-[#cbd5e1] text-base leading-relaxed">
               <p>
                 Soy{" "}
